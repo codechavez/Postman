@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Postman", "Utility.Postman\Utility.Postman.csproj", "{49E92CAF-88A9-4309-AE94-BB6A61C378C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Postman", "Core.Postman\Core.Postman.csproj", "{C38B82B6-DDA4-475D-83A7-B89CDB9C20BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman", "Postman\Postman.csproj", "{59D94D03-3322-4125-BDC7-4042DB533D74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49E92CAF-88A9-4309-AE94-BB6A61C378C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49E92CAF-88A9-4309-AE94-BB6A61C378C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49E92CAF-88A9-4309-AE94-BB6A61C378C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49E92CAF-88A9-4309-AE94-BB6A61C378C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38B82B6-DDA4-475D-83A7-B89CDB9C20BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38B82B6-DDA4-475D-83A7-B89CDB9C20BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38B82B6-DDA4-475D-83A7-B89CDB9C20BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38B82B6-DDA4-475D-83A7-B89CDB9C20BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D94D03-3322-4125-BDC7-4042DB533D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D94D03-3322-4125-BDC7-4042DB533D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D94D03-3322-4125-BDC7-4042DB533D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D94D03-3322-4125-BDC7-4042DB533D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
